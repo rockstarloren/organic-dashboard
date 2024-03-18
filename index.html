@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <style>
+      @font-face {
+        font-family: Poppins;
+        src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+      }
+
+      body {
+        font-family: Poppins;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/30f2ff12d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+
+  <body>
+    <div class="bg-slate-200 grid place-items-center font-semibold py-6">
+      <div class="w-6/12">
+        <header class="pb-6 text-3xl text-[#000808] flex items-center">
+          <img src="./images/favicon.png" width="60" />
+          <div class="pl-4">
+            <h1 class="font-bold text-3xl">Organic Team</h1>
+            <h2 class="text-xl font-semibold">Dashboard</h2>
+          </div>
+        </header>
+        <div
+          class="grid grid-flow-col justify-stretch place-content-center text-center gap-2"
+        >
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a
+              href="https://docs.google.com/spreadsheets/d/1p1iSELXC0Cb0Ev7PGSMf9KoF-pSTuiGu85-bSVWetoE/edit?usp=sharing"
+              target="_blank"
+              ><input
+                type="button"
+                value="Organic Database"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ZsI8ADjq3E5Uz-sgpAQGjDJ19ym68SkJixRyt1AcIkg/edit?usp=sharing"
+              target="_blank"
+              ><input
+                type="button"
+                value="Daily Monitoring"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a href="https://lorenperalta.netlify.app/" target="_blank"
+              ><input
+                type="button"
+                value="Weekly Sales Report"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a href="https://lorenperalta.netlify.app/" target="_blank"
+              ><input
+                type="button"
+                value="Pricing Calculator"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="grid grid-flow-col justify-stretch place-content-center text-center gap-2 mt-2"
+        >
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a
+              href="https://docs.google.com/spreadsheets/d/121ORNyNGEI5hQBXSGH3IWf2pSYc_E54IpogIQM7mAMg/edit?usp=sharing"
+              target="_blank"
+              ><input
+                type="button"
+                value="Sales Tools"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a
+              href="https://docs.google.com/spreadsheets/d/1DftXfOtoeQVLPkkB5YhfVKAS6Nhw84xXQsxUFrifyXY/edit?usp=sharing"
+              target="_blank"
+              ><input
+                type="button"
+                value="Daily Routine"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a
+              href="https://docs.google.com/document/d/1AV9kdVjQj-pZPEMYI1odEzjjHMZu_ctXLO6GPThkCXc/edit?usp=sharing"
+              target="_blank"
+              ><input
+                type="button"
+                value="Comment Templates"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#007872] rounded cursor-pointer hover:bg-[#008f88]">
+            <a
+              href="https://docs.google.com/document/d/1yYfhQ4MpqeavyM-I2YE6XyjIKJXn9SZ17ekgpiStLwE/edit?usp=sharing"
+              target="_blank"
+              ><input
+                type="button"
+                value="Voicemail Template"
+                class="py-3 text-white text-sm cursor-pointer"
+            /></a>
+          </div>
+        </div>
+        <h2 class="mt-8 mb-4 text-xl">Sales Representatives Trackers</h2>
+        <div
+          class="grid place-content-center justify-stretch grid-flow-col gap-2 text-sm"
+        >
+          <div class="bg-[#a5c5ce] p-4 rounded">
+            <h2 class="m-0 pb-4 text-center text-base font-bold">Joerson</h2>
+            <a
+              href="https://docs.google.com/document/d/1iFtTJQIvBbuovH6EBXKm8-NsjNrFG0toR8AMl75Vq1o/edit"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input
+                type="button"
+                value="Email Templates"
+                class="cursor-pointer"
+            /></a>
+            <a
+              href="https://docs.google.com/document/d/173AqPUyqkfUVFs5sl_Rscq-xnnwKxAOdd1d4MkCSfLo/edit?usp=sharing"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input type="button" value="Call Script" class="cursor-pointer"
+            /></a>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1MugEdNNmdfhKMzkgm7DZ5siwR9MCFY1Tkd8TI3OKq88/edit?usp=sharing"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input
+                type="button"
+                value="Leads Pipeline"
+                class="cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#a5c5ce] p-4 rounded">
+            <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
+              Vanessa
+            </h2>
+            <a
+              href="https://docs.google.com/document/d/1k5p8m69VI_gwTllWNblNoxu_6pZu0wR39aU0FvykLjk/edit"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input
+                type="button"
+                value="Email Templates"
+                class="cursor-pointer"
+            /></a>
+            <a
+              href="https://docs.google.com/document/d/1GyO8m4qqAe80inSaVJrwC4a0ZVTGsjzTiXiG_piHqq0/edit?usp=sharing"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input type="button" value="Call Script" class="cursor-pointer"
+            /></a>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1aqnvxrZE9EEP7-59kinM8yeBZz9SAj7EK99qql9PbP0/edit?usp=sharing"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input type="button" value="Past Clients" class="cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#a5c5ce] p-4 rounded">
+            <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
+              Maryelle
+            </h2>
+            <a
+              href="https://docs.google.com/document/d/1clBQ2CjlseDXaCrezS7K0Nlq_u0Y1xI5XVO_Cr_4LFI/edit?usp=sharing"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input
+                type="button"
+                value="Email Templates"
+                class="cursor-pointer"
+            /></a>
+          </div>
+          <div class="bg-[#a5c5ce] p-4 rounded">
+            <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
+              Shery May
+            </h2>
+            <a
+              href="https://docs.google.com/document/d/1iFtTJQIvBbuovH6EBXKm8-NsjNrFG0toR8AMl75Vq1o/edit"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input
+                type="button"
+                value="Email Templates"
+                class="cursor-pointer"
+            /></a>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1KQlU6s35-dczbsgLZHGAmMTjefEOfJ7KWyltX6J-2hw/edit?usp=sharing"
+              target="_blank"
+              class="bg-[#007872] py-3 px-7 rounded my-2 block text-center text-white hover:bg-[#008f88]"
+              ><input
+                type="button"
+                value="Leads Tracker"
+                class="cursor-pointer"
+            /></a>
+          </div>
+        </div>
+        <div>
+          <h2 class="mt-8 mb-4 text-xl">Quick Links</h2>
+          <div class="grid grid-flow-row gap-6">
+            <div class="grid grid-flow-row gap-6">
+              <h3 class="text-base pb-2 font-bold">Trello Internal Boards</h3>
+              <div class="flex justify-between">
+                <a
+                  href="https://trello.com/b/pm8vU9Kh"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  >Clients Reports' Board<i
+                    class="fa-solid fa-angles-right pl-2"
+                  ></i
+                ></a>
+                <a
+                  href="https://trello.com/b/yLGcRpMe"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  >New Payment Received<i
+                    class="fa-solid fa-angles-right pl-2"
+                  ></i
+                ></a>
+              </div>
+              <div class="flex justify-between">
+                <a
+                  href="https://trello.com/b/Lg1ZttOw"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  >ADS | Organic Knowledge Base<i
+                    class="fa-solid fa-angles-right pl-2"
+                  ></i
+                ></a>
+                <a
+                  href="https://trello.com/b/6I2ZDPKX"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  >New COB<i class="fa-solid fa-angles-right pl-2"></i
+                ></a>
+              </div>
+            </div>
+            <div class="grid grid-flow-row gap-6">
+              <h3 class="text-base pb-2 font-bold">Additional Resources</h3>
+              <div class="flex justify-between">
+                <a
+                  href="https://docs.google.com/document/d/1JYxjMZ2W3rtPXCJRcZIGceqLdT_QQg7RoQmWtPgAMkI/edit?usp=sharing"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  ><i class="fa-solid fa-phone pr-2"></i>General Call Script</a
+                >
+                <a
+                  href="https://docs.google.com/document/d/1vbuVR8kJ7tgY8vTNV2fckkfuXvQx7gJKODfdpjhWzZM/edit?usp=sharing"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  ><i class="fa-solid fa-phone pr-2"></i>Sales Objections</a
+                >
+              </div>
+              <div class="flex justify-between">
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1ik0PqOuCuFnppPohRJ0hIk7t-f_GzKRf3cUDFFkBmaE/edit?usp=sharing"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  ><i class="fa-regular fa-note-sticky pr-2"></i>Project
+                  Samples</a
+                >
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1g37GcBfRa7OXCRiMpUAgxK53tL2aiM9UYY8GceOsBuk/edit?usp=sharing"
+                  class="text-sm rounded border border-solid border-[#007872] text-[#007872] py-3 text-center w-[49.5%] font-bold hover:bg-[#a5c5ce]"
+                  target="_blank"
+                  ><i class="fa-regular fa-note-sticky pr-2"></i>Samples Per
+                  Platform</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="bg-slate-950 py-4 grid place-content-center">
+    <div class="grid place-content-center">
+      <img
+        src="./images/logo.png"
+        alt="rockstar-webdesign-services-logo"
+        width="150"
+      />
+    </div>
+    <a
+      href="http://www.rockstarwebdesignservices.com"
+      target="_blank"
+      class="text-gray-300 text-center text-sm py-2"
+      >www.rockstarwebdesignservices.com</a
+    >
+  </footer>
+
+  <script>
+    // Function to open the modal
+    function openModal(number) {
+      document.getElementById(number).classList.remove("hidden");
+    }
+
+    // Function to close the modal
+    function closeModal(number) {
+      document.getElementById(number).classList.add("hidden");
+    }
+  </script>
+</html>
